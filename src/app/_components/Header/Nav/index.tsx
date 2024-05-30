@@ -36,7 +36,7 @@ export const HeaderNav: React.FC<{ header: HeaderType }> = ({ header }) => {
         appearance='primary'
         onClick={() => (window.location.href = '/login')}
       />}
-      {user && <CartLink/>}
+      {/* {user && <CartLink/>} */ } 
     </nav>
   )
 }
